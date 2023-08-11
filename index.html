@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="body_c">
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="img/my_signature.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPMENT</p>
+                <h1>Hii, I am <span>Sudhanshu Ranjan</span><br> From Bihar</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------about--------------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/pro_23.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">LET ME INTRODUCE MYSELF</h1>
+                    <p>I love programing and web Development.
+                        To Become a successful expert in the field of web development and network Associate by
+                         gaining my technical knowledge and different soft skills to ensure personal and professional growth and in the
+                        end to contribute to the prosperity of the organization.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Workshops')">Workshops</p>
+                        <p class="tab-links" onclick="opentab('Certificate')">Certificate</p>
+                        <p class="tab-links" onclick="opentab('Achievements')">Achievements</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>▪ HTML/CSS/java Script</span><br>Designing web/App interfaces. i do some project like food</li>
+                            <li><span>▪ Cyber security</span><br>A Certificate in Ethical Hacking & Cyber <br>Security Organized By IIT BHU.</li>
+                            <li><span>▪ C#.ASP.NET</span><br>I like in ASP.NET FRAMEWORK and i lern c# language ,<br>I want to do some project in ASP.NET.</li>
+                            <li><span>▪ Cloud Computing </span><br>I learn Cloud Computing in my collage.</li>
+                            <li><span>▪ C language</span><br>I learn C language in my collage, <br>and i solve problem in c language. </li>
+                            <li><span>▪ Python</span><br>I learn Python language , <br>i love Python and ,<br> do some project in AI/ML like- Alexa, hide any Object and more.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Workshops">
+                        <ul>
+                            <!--   -->
+                            <li><span>2022 - Current -  Cyber Security</span><br>I  Attended A 2-Day Workshop On Ethical Hacking & <br>Cyber Security
+                                Organized By IIT Bhu.</li>
+                            <li><span>2022 - Current -  Cyber Security</span><br>I Attend A 5 Days Workshop On Cyber Security,<br> Cyber Crime
+                                                    Awareness Campaign By Deepak Kumar (B.Tech(It).Ocp.Mba.Llb).<br> A Cyber Security Expert.</li>
+                            <li><span>2022 - Current -  Cloud Computing </span><br>Attended A 1-Day Workshop On Cloud computing & <br>Cloud computing
+                                Organized By IIT Bhu. </li>
+                            <li><span>2022 - Current - Blockchain Technology</span><br>I Attend A 5 Days' Workshop On Blockchain Technology & <br>Applications
+                                Which Is Jointly Organized By The Electronics And <br>ICT Academies At IIT
+                                Kanpur. IIT Roorkee, MNIT Jaipur, <br>Nit Patna, And PDPM IIITDM Jabalpur <br>During Jan 3- Jan 8, 2022. Ministry of Electronics and
+                                <br>Information Technology (MeitY), Government Of India</li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Certificate">
+                        <ul>
+                            <li><span>Blockchain Technology</span><br>Obtained A Certificate From IT Academies For an Online <br>
+                                Certificate Course On Blockchain Technology.</li>
+                            <li><span>Cyber Security</span><br>A Certificate in Ethical Hacking & <br>Cyber Security
+                                Organized By IIT BHU.</li>
+                            <li><span>Cloud Computing</span><br> Certificate in Cloud Computing <br>
+                                Organized By IIT BHU for one day Workshop. </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Achievements">
+                            <ul>
+                            <li><span>AI/ML</span><br>Some projects on Machine Learning and Artificial Intelligence <br>
+                                with Advance python Knowledge and things.</li>
+                            <li><span>Cloud computing</span><br> Good Knowledge of Cloud computing.</li>
+                            <li><span>Computer Networking</span><br> Basic Knowledge of Computer Networking.</li>
+                            <li><span>App Development</span><br> Basic Knowledge of App Development.</li>
+                            <li><span>Web Development</span><br>Good Knowledge of Web Development.</li>
+                            <li><span>Cyber Security </span><br>Some knowledge About the Cyber Security tools.</li>
+                            <li><span>SQL Database</span><br> Basics knowledge of SQL & PHP.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------services--------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Designing web/App interfaces. i do some project like food</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>AI/Ml</h2>
+                    <p>Some projects on Machine Learning and Artificial Intelligence <br>
+                        with Advance python Knowledge and things. I also do some project in AI/Ml like ALEXA , hideing some Object.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Basic Knowledge of App Development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------portfolio----------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/f_1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Food Maker </h3>
+                        <p>The food maker is own project which i work on 2nd year from html , css java Script of use API it is not 
+                            complete but in feature it will complete .</p>
+                        <a href="#">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/AI_.jpg" alt="">
+                    <div class="layer">
+                        <h3>AI/ML</h3>
+                        <p>I use the python language for creating ALEXA voice recognition in 2nd year i complete this project ,
+                             and its to much fun for use python language.  </p>
+                        <a href="#">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/in_1.jpg" alt="">
+                    <div class="layer">
+                        <h3>Invisible</h3>
+                        <p>I use the python language for creating hide some any object which is color is blue it will hide the color of blue
+                             in 2nd year i complete this project , and its to much fun for use python language. </p>
+                        <a href="#">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ---------------------contact----------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>rsudhanshu119@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>7979959747</p>
+                    <div class="social-icons">
+                        <a href="https://mail.google.com/mail/u/0/#inbox"> <i class="fab fa-google"></i></a>
+                        <a href="https://www.instagram.com/invites/contact/?i=mg2gkg7uf3u7&utm_content=1uzhziz" > <i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/sudhanshu-ranjan-405375243"> <i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Sudhanshu-GIT-00/Login_form"> <i class="fab fa-github"></i></a>
+                        <a href="https://www.facebook.com/sudhanshu.ranjan.1675275?mibextid=ZbWKwL"> <i class="fab fa-facebook"></i></a>
+                        <a href="https://twitter.com/Sudhanshu797995?t=QjO5QE8uOiw0bmJ2NJ9MZg&s=09"> <i class="fab fa-twitter"></i></a>
+                    </div>
+                    <a href="img/sudhanshu_R.pdf" class="btn" id="btn2" target="_blank">Download CV</a>
+                </div>
+                <form class="form1" action="" name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" cols="30" rows="10" placeholder="Your Message"></textarea>
+                    <button class="btn" id="btn3" type="submit">submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+        <div class="copy_right">
+            <p>Copyright © Sudhanshu Ranjan.<i class="fas fa-heart"></i> My own project</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyWAG_G83tdH7fndgFSKA5yOaMny1lhkP-b2OCJIzf-Ltsz9oVf2drLty6qGb41RV2K/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
